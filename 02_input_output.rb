@@ -21,3 +21,19 @@
 # "Wow! You are 40 years old. Congratulations!"
 # The program also outputs:
 # "Tom, in 60 years you will be 100 years old!"
+
+puts "What is your name?"
+name = gets.chomp
+greeting = "Hi #{name}! How old are you?"
+
+puts greeting
+
+age = gets.chomp.to_i
+
+puts "Wow! You are #{age} years old. Congratulations!"
+
+years_until = 100 - age
+
+puts "#{name}, in #{years_until} you wil be 100 years old!"
+
+
