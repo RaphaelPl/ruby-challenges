@@ -37,7 +37,7 @@ years_until = 100 - age
 if age < 100 
     puts "#{name}, in #{years_until} you wil be 100 years old!"
 else
-    puts "#{name}, you've past a century of living!"
+    puts "#{name}, you've passed a century of living!"
 end
 
 
