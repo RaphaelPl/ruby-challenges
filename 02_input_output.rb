@@ -32,8 +32,14 @@ age = gets.chomp.to_i
 
 puts "Wow! You are #{age} years old. Congratulations!"
 
-years_until = 100 - age
+years_until = 100 - age 
 
-puts "#{name}, in #{years_until} you wil be 100 years old!"
+if age < 100 
+    puts "#{name}, in #{years_until} you wil be 100 years old!"
+else
+    puts "#{name}, you've past a century of living!"
+end
+
+
 
 
