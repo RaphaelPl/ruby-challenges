@@ -16,8 +16,38 @@
 # 
 # Examples - what if both numbers are equal or are strings?
 
+def number_validation(number_1, number_2)
+  if (number_1.class != Integer)
+    p ("number not valid for comparison")
+    return false
+  elsif (number_2.class != Integer)
+    p ("number not valid for comparison")
+    return false
+  else 
+    return true
+  end
+end
+  
+  
+
 def largest_number (number_1, number_2)
   # Your code here
+
+  if (number_validation(number_1, number_2))
+    if (number_1 > number_2)
+      p (number_1)
+    else
+      p(number_2)
+      
+    end
+  end
 end
 
+largest_number("100",50)
+largest_number(100,"50")
+largest_number("","")
+largest_number(100,50)
+largest_number(100,50)
+largest_number(100,50)
+largest_number(100,50)
 largest_number(100,50)
